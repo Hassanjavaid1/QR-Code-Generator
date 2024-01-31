@@ -83,6 +83,7 @@ const autoSlide = () => {
   setInterval(() => {
     index++;
     fetchImages();
-  }, 7000);
+    updateDot()
+  }, 3000);
 };
 autoSlide();
