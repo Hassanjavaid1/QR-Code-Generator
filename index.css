@@ -1,6 +1,7 @@
 body {
   background: #000000;
   color: white;
+  overflow: hidden;
 }
 #slide_img {
   height: 25rem;

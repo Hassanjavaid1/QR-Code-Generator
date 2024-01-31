@@ -36,7 +36,6 @@ const imgArr = [
     img: "./Photos/slide6.jpg",
   },
 ];
-console.log(imgArr[index]);
 const fetchImages = async () => {
   let element = document.createElement("span");
   if (index < imgArr.length) {
