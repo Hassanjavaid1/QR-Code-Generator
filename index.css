@@ -1,0 +1,95 @@
+body {
+  background: #242323;
+  color: white;
+}
+#input {
+  height: 2.5rem;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: black;
+  width: 14rem;
+  text-indent: 0.5rem;
+}
+#input:focus {
+  outline: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  width: 15rem;
+  border-radius: 0.6rem;
+  color: black;
+  align-items: baseline;
+  margin: auto;
+  margin-top: 7rem;
+  padding: 2rem;
+  padding-top: 1rem;
+}
+#btn {
+  width: 14.5rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding: 0.8rem;
+  background: #4550df;
+  border: 0px;
+  color: white;
+  margin-top: 1.1rem;
+  cursor: pointer;
+}
+p {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+img {
+  padding: 0.6rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+.shakeInput {
+  animation: shake 0.5s;
+  animation-iteration-count: 1s;
+  border: 1px solid red;
+}
+.border {
+  border: 1px solid gray;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
